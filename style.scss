@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contact-area {
+  margin: auto;
+  width: 30%;
+}
+.contact-adder-form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: rgb(26, 17, 63);
+  padding: 20px 50px;
+  & h2 {
+    color: white;
+    padding: 15px;
+  }
+  & .inputDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: white;
+    gap: 5px;
+    & #firstnameAndLastnameInput,
+    #addressInput,
+    #ageInput {
+      height: 4vh;
+      border-radius: 5px;
+    }
+  }
+  & #addButton {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 80px;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border-width: 0;
+  }
+}
+#addButton:hover {
+  background-color: grey;
+}
+.contact-cards {
+  display: flex;
+  margin: 15px;
+  gap: 10px;
+}
+.cardBody {
+  background-color: rgb(54, 157, 195);
+  width: 200px;
+  & ul {
+    list-style-type: none;
+    padding: 10px 0px;
+    align-items: start;
+    & li {
+      height: 2vh;
+      text-align: start;
+      align-items: center;
+      padding: 10px;
+    }
+  }
+}

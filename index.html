@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="contact-area">
+      <article class="contact-adder-form">
+        <h2>Enter Contact Information</h2>
+          <form class="inputDiv">
+            <label>Firstname and Lastname</label>
+            <input
+              type="text"
+              class="inputs"
+              id="firstnameAndLastnameInput"
+              name="Firstname and Lastname"
+              required
+            />
+            <label>Address</label>
+            <input
+              type="text"
+              class="inputs"
+              id="addressInput"
+              name="address"
+              required
+            />
+            <label>Age</label>
+            <input
+              type="number"
+              class="inputs"
+              id="ageInput"
+              name="age"
+              required
+            />
+            <label>Sex</label>
+            <div>
+              <input
+                type="radio"
+                class="sexInput inputs"
+                id="maleInput"
+                name="gender"
+                required
+              />
+              <label for="gender"> male</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                class="sexInput inputs"
+                id="femaleInput"
+                name="gender"
+                required
+              />
+              <label for="gender"> female</label>
+            </div>
+            <input type="submit" id="addButton" value="add">
+          </form>
+      </article>
+    </section>
+    <article class="contact-cards">
+      <!-- <div class="cardBody">
+        <ul>
+          <li>firsname:<strong>soso</strong></li>
+          <li>lastname:<strong>kantaria</strong></li>
+          <li>age:<strong>23</strong></li>
+          <li>address:<strong>tavdadebuli</strong></li>
+          <li>sex:<strong>male</strong></li>
+        </ul>
+      </div> -->
+    </article>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
